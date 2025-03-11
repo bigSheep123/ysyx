@@ -1,3 +1,4 @@
+/// yemu v1.0
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -24,12 +25,8 @@ void inst_cycle() {
   PC += 4;
 }
 
-int main(int argc, char *argv[]) {
-  PC = 0; R[0] = 0;
-  FILE *fp = fopen(argv[1], "r");
-  fread(M, 1, 1024, fp);
-  fclose(fp);
+int main() {
+  PC = 0; R[0] = 0; // can be omitted since uninitialized global variables are initialized with 0
   while (!halt) { inst_cycle(); }
   return 0;
 }
-
