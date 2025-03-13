@@ -1,0 +1,3 @@
+/home/dh/ysyx/Verilog/test_our/build/CMakeFiles/Vour.dir
+/home/dh/ysyx/Verilog/test_our/build/CMakeFiles/edit_cache.dir
+/home/dh/ysyx/Verilog/test_our/build/CMakeFiles/rebuild_cache.dir
