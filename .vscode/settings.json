@@ -1,3 +1,14 @@
 {
-    "cmake.sourceDirectory": "/home/dh/ysyx/ics2024/nemu/tools/capstone/repo"
+    "cmake.sourceDirectory": "/home/dh/ysyx/ics2024/nemu/tools/capstone/repo",
+    "files.associations": {
+        "am.h": "c",
+        "__node_handle": "c",
+        "amtest.h": "c",
+        "thread": "c",
+        "text_encoding": "c",
+        "__locale": "c",
+        "locale": "c",
+        "GUI.C": "cpp",
+        "klib-macros.h": "c"
+    }
 }
