@@ -9,6 +9,8 @@
         "__locale": "c",
         "locale": "c",
         "GUI.C": "cpp",
-        "klib-macros.h": "c"
+        "klib-macros.h": "c",
+        "typeinfo": "c",
+        "chrono": "c"
     }
 }

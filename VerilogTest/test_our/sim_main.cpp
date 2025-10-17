@@ -1,11 +1,5 @@
-  // module our;
-  //    initial begin $display("Hello World"); $finish; end
-  // endmodule
-
-
   #include "Vour.h"
   #include "verilated.h"
-
   int main(int argc, char** argv) {
       VerilatedContext* contextp = new VerilatedContext;
       contextp->commandArgs(argc, argv);
